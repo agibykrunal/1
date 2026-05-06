@@ -4,7 +4,7 @@ from flask import Flask, render_template, redirect, url_for, session, jsonify
 from authlib.integrations.flask_client import OAuth
 from dotenv import load_dotenv
 
-# Load enviro
+# Load envir
 load_dotenv()
 
 # Configure logging
